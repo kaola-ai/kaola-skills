@@ -17,6 +17,19 @@
 
 ## 安装
 
+### Plugin 安装（推荐）
+
+在终端依次运行：
+
+```bash
+codex plugin marketplace add kaola-ai/kaola-skills
+codex plugin add kaola-skills@kaola-ai
+```
+
+安装后，在插件目录中可以直接看到 **Kaola Skills**，无需再次输入 GitHub 仓库地址。
+
+### 手动安装 Skills
+
 将本仓库的 `skills/` 内各目录复制到你的 Codex 项目 `.agents/skills/` 目录；随后可在对话中使用 `$kaola` 或对应子 Skill 名称。
 
 `kaola-lapian` 的本地处理脚本需要 FFmpeg、FFprobe 和 Pillow。若要使用 SenseVoice 转写，请在你自己的 Python 环境中安装 `funasr`、`torch` 与 `torchaudio`，并按服务自身要求准备模型。
