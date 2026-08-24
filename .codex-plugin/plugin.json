@@ -1,0 +1,38 @@
+{
+  "name": "kaola-skills",
+  "version": "1.0.0",
+  "description": "梳理并执行从视频拉片、复刻到 AI 带货视频生成的完整工作流。",
+  "author": {
+    "name": "Kaola AI",
+    "url": "https://github.com/kaola-ai"
+  },
+  "homepage": "https://github.com/kaola-ai/kaola-skills",
+  "repository": "https://github.com/kaola-ai/kaola-skills",
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "ai-video",
+    "ecommerce-video",
+    "video-analysis",
+    "video-recreation",
+    "storyboard"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kaola Skills",
+    "shortDescription": "快速产出高质量 AI 带货视频",
+    "longDescription": "覆盖视频拉片、视频复刻、电商带货分镜和产品卖点可视化的完整 AI 视频工作流。",
+    "developerName": "Kaola AI",
+    "category": "Creativity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/kaola-ai/kaola-skills",
+    "defaultPrompt": [
+      "帮我分析这个视频并生成完整拉片。",
+      "保持原视频结构，只替换我指定的人物或商品。",
+      "把商品素材整理成高质量的 AI 带货视频分镜。"
+    ],
+    "brandColor": "#FF6B4A"
+  }
+}
