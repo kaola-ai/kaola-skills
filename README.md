@@ -1,6 +1,6 @@
 # Kaola Skills
 
-考拉 Skills 梳理各种 AI 视频的流程，目标是帮你快速产出高质量的 AI 带货视频。
+Kaola Skills 梳理 AI 视频创作与口播精剪的完整流程，目标是帮你更快完成拉片、复刻、带货分镜、卖点视频和本地口播剪辑。
 
 ## 总览
 
@@ -14,7 +14,7 @@
 - `kaola-daihuo`：把商品素材和已确认卖点整理为电商短视频分镜与提示词。
 - `kaola-fuke`：保留原视频结构，仅替换指定人物、服装、商品或 Logo。
 - `kaola-maidian`：把产品功能转化为可见的发布会式卖点演示。
-- `sensevoice-koubo-editor`：用本地 SenseVoice 转写口播视频，并在网页里按逐字稿、停顿块和 0.01 秒波形精剪口误。
+- `kaola-koubo`：用本地 SenseVoice 转写口播视频，并在网页里按逐字稿、停顿块和 0.01 秒波形精剪口误。
 
 ## 安装
 
@@ -33,7 +33,7 @@ codex plugin add kaola-skills@kaola-ai
 
 将本仓库的 `skills/` 内各目录复制到你的 Codex 项目 `.agents/skills/` 目录；随后可在对话中使用 `$kaola` 或对应子 Skill 名称。
 
-`kaola-lapian` 的本地处理脚本需要 FFmpeg、FFprobe 和 Pillow；`sensevoice-koubo-editor` 需要 FFmpeg 与 FFprobe。若要使用 SenseVoice 转写，请在你自己的 Python 环境中安装 `funasr`、`torch` 与 `torchaudio`，并按服务自身要求准备模型。
+`kaola-lapian` 的本地处理脚本需要 FFmpeg、FFprobe 和 Pillow；`kaola-koubo` 需要 FFmpeg 与 FFprobe。若要使用 SenseVoice 转写，请在你自己的 Python 环境中安装 `funasr`、`torch` 与 `torchaudio`，并按服务自身要求准备模型。
 
 ## 使用前必须准备
 
