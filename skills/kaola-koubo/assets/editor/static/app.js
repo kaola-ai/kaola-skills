@@ -21,7 +21,7 @@ const state = {
 const $ = sel => document.querySelector(sel);
 const TEXT_TIMELINE_LEAD = 0.12;
 const CUT_START_PAD = 0.02;
-const CUT_END_PAD = 0.01;
+const CUT_END_PAD = 0.05;
 const LONG_PAUSE_SECONDS = 0.5;
 const PREVIEW_SKIP_LEAD = 0.03;
 const fmt = s => {
