@@ -1,7 +1,0 @@
-interface:
-  display_name: "SenseVoice 口播剪辑器"
-  short_description: "本地转写并按文字精剪口播视频"
-  default_prompt: "Use $sensevoice-koubo-editor to transcribe this local video, pre-cut口误, and open the local editor for review."
-policy:
-  allow_implicit_invocation: true
-
