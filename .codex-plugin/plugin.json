@@ -1,7 +1,7 @@
 {
   "name": "kaola-skills",
   "version": "1.0.0",
-  "description": "梳理并执行从视频拉片、复刻到 AI 带货视频生成的完整工作流。",
+  "description": "梳理并执行从视频拉片、复刻、AI 带货视频生成到本地口播精剪的完整工作流。",
   "author": {
     "name": "Kaola AI",
     "url": "https://github.com/kaola-ai"
@@ -14,7 +14,10 @@
     "ecommerce-video",
     "video-analysis",
     "video-recreation",
-    "storyboard"
+    "storyboard",
+    "speech-video-editing",
+    "sensevoice",
+    "transcript-editing"
   ],
   "skills": "./skills/",
   "interface": {
@@ -31,7 +34,8 @@
     "defaultPrompt": [
       "帮我分析这个视频并生成完整拉片。",
       "保持原视频结构，只替换我指定的人物或商品。",
-      "把商品素材整理成高质量的 AI 带货视频分镜。"
+      "把商品素材整理成高质量的 AI 带货视频分镜。",
+      "帮我用本地 SenseVoice 转写这个口播视频，并打开网页按文字精剪口误。"
     ],
     "brandColor": "#FF6B4A"
   }
