@@ -23,7 +23,7 @@
   "interface": {
     "displayName": "Kaola Skills",
     "shortDescription": "快速产出高质量 AI 带货视频",
-    "longDescription": "覆盖视频拉片、视频复刻、电商带货分镜和产品卖点可视化的完整 AI 视频工作流。",
+    "longDescription": "覆盖视频拉片、视频复刻、电商带货分镜、产品卖点可视化和本地口播精剪的完整 AI 视频工作流。",
     "developerName": "Kaola AI",
     "category": "Creativity",
     "capabilities": [
